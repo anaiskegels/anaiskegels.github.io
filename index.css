@@ -1,0 +1,27 @@
+h1 {
+	color: purple;
+}
+
+body {
+  text-align: center;
+  background-color:("/anaiskegels/coding_course/labasique/pink_glitter.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: helvetica;
+}
+
+p {
+  font-size: 22px;
+}
+
+input {
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  background: red;
+  color: white;
+}
