@@ -1,0 +1,9 @@
+h1 {
+	color:red;
+}
+body {
+  text-align: center;
+  background-image: url("pink_glitter.jpg");
+  background-size: cover;
+  background-position: center;
+}
