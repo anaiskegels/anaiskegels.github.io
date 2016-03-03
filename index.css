@@ -7,7 +7,7 @@ body {
   background: url("images/pink_glitter.jpg");
   background-position: center;
   color: white;
-  font-family: 'Helvetica';
+  font-family: 'Pacifico';
 }
 
 ul {
@@ -26,7 +26,7 @@ ul {
 li {
     float: center;
     display: inline;
-    padding: 15px 15px 15px 0px;
+    padding: 20px;
     display:inline-block;
     font-size: 30px;
 }
