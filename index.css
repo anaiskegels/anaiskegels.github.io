@@ -1,5 +1,11 @@
-h1 {
+#basicbitchimage {
+	border: 15px solid white;
+	border-radius: 50px;
+}
+
+#slogan {
 	color: purple;
+	font-size: 25px;
 }
 
 body {
