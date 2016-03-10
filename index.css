@@ -1,27 +1,19 @@
-#basicbitchimage {
-	border: 15px solid white;
-	border-radius: 50px;
-}
-
-#slogan {
-	color: purple;
-	font-size: 25px;
-}
 
 body {
   text-align: center;
-  background: url("images/pink_glitter.jpg");
-  background-position: center;
-  color: white;
+  background: url("pink_glitter.jpg");
+  margin: 0 auto;
+  color: #660066;
   font-family: 'Pacifico';
+  padding: 10px;
 }
 
 ul {
     font-family: 'Pacifico';
-    font-size: 50px;
+    font-size: 60px;
     list-style-type: none;
     margin: 10;
-    padding: 30;
+    padding: 10;
     overflow: hidden;
     background-color: rgba(216, 191, 216, .6);
     display:block;
@@ -39,27 +31,47 @@ li {
 
 li a {
     display: inline-block;
-    color: white;
+    color: #660066;
     text-align: center;
     padding: 30px 30px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #CC0066;
 }
 
 p {
-  font-size: 22px;
+  color: #CC0066;
+  font-size: 30px;
+  padding:8px;
+  display:block;
+  background-color: rgba(216, 191, 216, .4);
+  border: 2px white none;
+  border-radius: 10px;
 }
 
-input {
-  border: 0;
-  padding: 10px;
-  font-size: 18px;
+ol {
+  font-size:30px;
 }
 
-input[type="submit"] {
-  background: red;
-  color: white;
+#basicbitchimage {
+  size: 1000%;
+  border: 5px solid white;
+  border-radius: 70%;
+  width: 270px;
+  position: relative;
+  left: 508px;
 }
+
+#slogan {
+  color: white ;
+  font-size: 30px;
+}
+
+#credits {
+  img
+}
+
+
+
