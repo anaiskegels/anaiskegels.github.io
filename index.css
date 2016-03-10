@@ -1,15 +1,14 @@
-
 body {
   text-align: center;
   background: url("pink_glitter.jpg");
   margin: 0 auto;
   color: #660066;
-  font-family: 'Pacifico';
+  font-family: 'Lobster Two', cursive;
   padding: 10px;
 }
 
 ul {
-    font-family: 'Pacifico';
+    font-family: 'Lobster Two', cursive;
     font-size: 60px;
     list-style-type: none;
     margin: 10;
