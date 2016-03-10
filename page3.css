@@ -1,0 +1,130 @@
+body {
+  font-family: 'Lobster Two', cursive;
+  margin: 0 auto;
+  text-align: center;
+  background: url("images/pink_glitter.jpg");
+}
+
+ul {
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px;
+    list-style-type: none;
+    margin: 10;
+    padding: 30;
+    overflow: hidden;
+    background-color: rgba(216, 191, 216, .6);
+    display:block;
+    border-radius: 12px;
+    position: relative;
+}
+
+li {
+	color: #660066;
+    float: center;
+    display: inline;
+    padding: 30px;
+    display:inline-block;
+    font-size: 30px;
+}
+
+li a {
+    display: inline-block;
+    color: #660066;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+	background-color: #CC0066;
+}
+
+input {
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  background: red;
+  color: white;
+}
+
+.Page-Title {
+	font-color: white;
+}
+
+
+div {
+  height: 450px;
+  width: 800px;
+  background-size: cover;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+p {
+  font-size: 40px;
+  color: rgba(255,255,255,1);
+  background: black;
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4   )); 
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -o-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 40px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 75px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+small {
+  opacity: 0;
+}
+.show-description p {
+  height: 300px;
+}
+.show-description small {
+  opacity: 1;
+}
+.first{
+  background-image: url("riesling.jpg");
+}
+.second{
+  background-image: url("altos.png");
+}
+.third{
+  background-image: url("tesco.jpg");
+}
+.score {
+	max-height: 50px;
+  	float: right;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 10px;
+    margin-top: 10px;
+    line-height: 30px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+    height: 300px;
+    width: 500px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .small {
+    font-size: 10px;
+  }
+}
