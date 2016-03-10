@@ -59,6 +59,13 @@ input[type="submit"] {
   color: white !important;
 }
 
+h2 {
+  font-size: 40px !important;
+  font-style: italic;
+  color: #660066;
+  margin-top: -60px;
+  margin-bottom: 50px;
+}
 
 div {
   height: 450px;
@@ -105,6 +112,18 @@ small {
 }
 .third{
   background-image: url("images/strawberry-kale-salad-with-nutty-granola-croutons-1 (2).jpg");
+}
+
+.first2 {
+  background-image: url("images/recipe 1.jpg");
+}
+
+.second2{
+  background-image: url("images/recipe2.jpg");
+}
+
+.dessert2{
+  background-image: url("images/recipe3.jpg");
 }
 .score {
   max-height: 50px;
