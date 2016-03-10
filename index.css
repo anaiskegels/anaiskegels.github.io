@@ -1,0 +1,65 @@
+#basicbitchimage {
+	border: 15px solid white;
+	border-radius: 50px;
+}
+
+#slogan {
+	color: purple;
+	font-size: 25px;
+}
+
+body {
+  text-align: center;
+  background: url("images/pink_glitter.jpg");
+  background-position: center;
+  color: white;
+  font-family: 'Pacifico';
+}
+
+ul {
+    font-family: 'Pacifico';
+    font-size: 50px;
+    list-style-type: none;
+    margin: 10;
+    padding: 30;
+    overflow: hidden;
+    background-color: rgba(216, 191, 216, .6);
+    display:block;
+    border-radius: 12px;
+    position: relative;
+}
+
+li {
+    float: center;
+    display: inline;
+    padding: 20px;
+    display:inline-block;
+    font-size: 30px;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+p {
+  font-size: 22px;
+}
+
+input {
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  background: red;
+  color: white;
+}
