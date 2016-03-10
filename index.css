@@ -3,8 +3,9 @@ body {
   text-align: center;
   background: url("pink_glitter.jpg");
   margin: 0 auto;
-  color: white;
+  color: #660066;
   font-family: 'Pacifico';
+  padding: 10px;
 }
 
 ul {
@@ -12,7 +13,7 @@ ul {
     font-size: 60px;
     list-style-type: none;
     margin: 10;
-    padding: 30;
+    padding: 10;
     overflow: hidden;
     background-color: rgba(216, 191, 216, .6);
     display:block;
@@ -30,19 +31,24 @@ li {
 
 li a {
     display: inline-block;
-    color: white;
+    color: #660066;
     text-align: center;
     padding: 30px 30px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #660066;
+    background-color: #CC0066;
 }
 
 p {
-  color:#660066;
+  color: #CC0066;
   font-size: 30px;
+  padding:8px;
+  display:block;
+  background-color: rgba(216, 191, 216, .4);
+  border: 2px white none;
+  border-radius: 10px;
 }
 
 ol {
@@ -53,14 +59,18 @@ ol {
   size: 1000%;
   border: 5px solid white;
   border-radius: 70%;
-  width: 250px;
+  width: 270px;
   position: relative;
-  left: 500px;
+  left: 508px;
 }
 
 #slogan {
-  color: #CC0066 ;
+  color: white ;
   font-size: 30px;
+}
+
+#credits {
+  img
 }
 
 
